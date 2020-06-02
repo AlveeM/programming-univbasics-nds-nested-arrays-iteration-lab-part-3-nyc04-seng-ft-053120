@@ -14,4 +14,4 @@ mixed_data = [
   ["studied", 101, 233, "Ruby"]
 ]
 
-puts join_nested_strings(mixed_data)
+p join_nested_strings(mixed_data)
