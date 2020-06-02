@@ -4,7 +4,7 @@ def join_nested_strings(src)
   result_str = ""
   src.each do |outer_arr|
     outer_arr.each do |inner_arr|
-      inner_arr.each {|el| result_str += el if  el.kind_of?(String)
+      inner_arr.each {|el| result_str += el if  el.kind_of?(String)}
     end
   end
   result_str
