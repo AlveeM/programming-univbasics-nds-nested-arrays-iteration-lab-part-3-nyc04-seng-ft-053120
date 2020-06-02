@@ -5,7 +5,7 @@ def join_nested_strings(src)
   src.each do |arr|
     arr.each {|el| result_str += el + " " if  el.kind_of?(String)}
   end
-  result_str
+  result_str.strip!
 end
 
 mixed_data = [
