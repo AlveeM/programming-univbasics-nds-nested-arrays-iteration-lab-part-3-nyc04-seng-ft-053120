@@ -9,3 +9,5 @@ def join_nested_strings(src)
   end
   result_str
 end
+
+join_nested_strings()
