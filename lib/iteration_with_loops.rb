@@ -3,7 +3,7 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   result_str = ""
   src.each do |arr|
-    arr.each {|el| result_str += el if  el.kind_of?(String)}
+    arr.each {|el| result_str += el + " " if  el.kind_of?(String)}
   end
   result_str
 end
